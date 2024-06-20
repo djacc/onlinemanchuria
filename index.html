@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>o|m</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>「o|m」- online|manchuria</h1>
+    </div>
+    <div class="menu-container">
+        <ul class="menu">
+            <li>
+                <span onclick="toggleContent('artistContent')">Artist</span>
+                <div class="content" id="artistContent">
+                    <ul>
+                        <li>chained2</li>
+                        <li>chem</li>
+                        <li>leaihp</li>
+                        <li>lovbug</li>
+                        <li>skoolio</li>
+                        <li>sophita</li>
+                        <li>spectra</li>
+                        <li>tekea</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <span onclick="toggleContent('collectionContent')">Collections</span>
+                <div class="content" id="collectionContent">
+                    <ul>
+                        <li><a href="https://soundcloud.com/onlinemanchuria/dgm-online-manchuria-pack-1">BGM demo 1</a></li>
+                        <li><a href="https://soundcloud.com/onlinemanchuria/chenpol-skoolio-b2b-after-party-dj-set-live-reves7">Live @ « Rêves Party 9 »</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <span onclick="toggleContent('archiveContent')">Archive</span>
+                <div class="content" id="archiveContent">
+                    <ul>
+                        <li onclick="playAudio('audio1')"> 01 - sophita <audio id="audio1" src="pack/0sophitia.wav"></audio></li>
+                        <li onclick="playAudio('audio2')"> 02 - leiahp <audio id="audio2" src="pack/1leiahp.wav"></audio></li>
+                        <li onclick="playAudio('audio3')"> 03 - lovbug + skoolio <audio id="audio3" src="pack/2lovbugskoolio.wav"></audio></li>
+                        <li onclick="playAudio('audio4')"> 04 - chained2 <audio id="audio4" src="pack/3chained.wav"></audio></li>
+                        <li onclick="playAudio('audio5')"> 05 - tekea <audio id="audio5" src="pack/4tekea.wav"></audio></li>
+                        <li onclick="playAudio('audio6')"> 06 - spectra <audio id="audio6" src="pack/5spectra.wav"></audio></li>
+                        <li onclick="playAudio('audio7')"> 07 - skoolio <audio id="audio7" src="pack/6skoolio.wav"></audio></li>
+                        <li onclick="playAudio('audio8')"> 08 - tekea <audio id="audio8" src="pack/7tekea.wav"></audio></li>
+                        <li onclick="playAudio('audio9')"> 09 - chem <audio id="audio9" src="pack/8chem.wav"></audio></li>
+                        <li onclick="playAudio('audio10')"> 10 - slacker <audio id="audio10" src="pack/9slacker.wav"></audio></li>
+                        <li onclick="playAudio('audio11')"> 11 - sophita <audio id="audio11" src="pack/10sophitia.wav"></audio></li>
+                        <li onclick="playAudio('audio12')"> 12 - tekea <audio id="audio12" src="pack/11tekea.wav"></audio></li>
+                        <li onclick="playAudio('audio13')"> 13 - slacker <audio id="audio13" src="pack/12slacker.wav"></audio></li>
+                        <li onclick="playAudio('audio14')"> 14 - leiahp <audio id="audio14" src="pack/13leiahp.wav"></audio></li>
+                        <li onclick="playAudio('audio15')"> 15 - skoolio <audio id="audio15" src="pack/14skoolio.wav"></audio></li>
+                        <li onclick="playAudio('audio16')"> 16 - leiahp <audio id="audio16" src="pack/15leiahp.wav"></audio></li>
+                        <li onclick="playAudio('audio17')"> 17 - lovbug <audio id="audio17" src="pack/16lovbug.wav"></audio></li>
+                        <li onclick="playAudio('audio18')"> 18 - tekea <audio id="audio18" src="pack/17tekea.wav"></audio></li>
+                        <li onclick="playAudio('audio19')"> 19 - chem <audio id="audio19" src="pack/18chem.wav"></audio></li>
+                        <li onclick="playAudio('audio20')"> 20 - lovbug <audio id="audio20" src="pack/19lovbug.wav"></audio></li>
+                
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
